@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .img-container {
+          float: left;
+          width: 50%;
+          padding: 5px;
+        }
+
+        .clearfix::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clearfix">
+      <div class="img-container">
+          <img src="media/big five graphic.png">
+      </div>
+      <div class="img-container">
+          <img src="media/sphere.png">
+      </div>
+    </div>
+</body>
+
+</html>
